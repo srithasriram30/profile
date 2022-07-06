@@ -17,5 +17,43 @@
             <span><a href="contact.html">Contact</a></span>
             <span><a href="social.html">Social</a></span>
         </div>
+
+        <h2>Contact Me</h2>
+
+        <form action="post">
+
+            <fieldset>
+                <div class="formField">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name">
+                </div>
+
+                <div class="formField">
+                    <label for="email">Email</label>
+                    <input type="email" name="emailAdd" id="emailAdd">
+                </div>
+
+                <div class="formField">
+                    <label for="subject">Subject</label>
+                    <input type="text" name="subject" id="subject">
+                </div>
+
+                <div class="formField">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+
+                <div class="formField">
+
+                    <input type="checkbox" id="emailPromotion" name="emailPromotion"><label for="email">I agree to receiving occasional promotional emails</label>
+
+                </div>
+
+                <div class="formField">
+                    <button type="submit">Send message</button>
+                </div>
+            </fieldset>
+
+        </form>
     </body>
 </html>
